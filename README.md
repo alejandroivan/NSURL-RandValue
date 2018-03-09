@@ -1,5 +1,5 @@
 # NSURL+RandValue
-Category that adds a random value to the URL in order to avoid caching
+Category that adds a method to NSURL to get a randomized URL, in order to avoid caching.
 
 ## Usage
 ```
