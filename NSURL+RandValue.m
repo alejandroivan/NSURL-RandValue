@@ -1,13 +1,13 @@
 //
-//  NSURL+RandValueURL.h
+//  NSURL+RandValue.m
 //
 //  Created by Alejandro Iván on 09-03-18.
 //  Copyright © 2018 Alejandro Iván Melo Domínguez. All rights reserved.
 //
 
-#import "NSURL+RandValueURL.h"
+#import "NSURL+RandValue.h"
 
-@implementation NSURL (RandValueURL)
+@implementation NSURL (RandValue)
 
 - (NSURL *)randomizedURL {
     NSURLComponents *components                     = [[NSURLComponents alloc] initWithURL:self
