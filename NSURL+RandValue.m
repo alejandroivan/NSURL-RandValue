@@ -31,7 +31,7 @@
         [queryItems addObject:item];
     }
     
-    [components setQueryItems:queryItems.mutableCopy];
+    [components setQueryItems:queryItems.copy];
     
     return [components URL];
 }
