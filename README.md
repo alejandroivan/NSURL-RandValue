@@ -1,9 +1,17 @@
 # NSURL+RandValue
 Category that adds a method to NSURL to get a randomized URL, in order to avoid caching.
 
+## Install
+Installing is done using [CocoaPods](https://cocoapods.org). To install this category, edit your `Podfile` and add this:
+
+```pod 'NSURL-RandValue'```
+
+Then just run `pod install` in the Terminal, at the same folder where your `Podfile` is.
+
+
 ## Usage
 ```
-#import "NSURL+RandValue.h" // 1) Import the category
+#import <NSURL-RandValue/NSURL+RandValue.h>
     
 - (void)someMethod {
     NSURL *theURL = [NSURL URLWithString:@"http://server/file.php?key1=value1"];
